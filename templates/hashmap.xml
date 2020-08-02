@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Create HashMap" enabled="true" name="hashmap">${:import(java.util.HashMap, &#13;
+java.util.Map)}Map&lt;${keytype}, ${valuetype}&gt; = new HashMap&lt;&gt;();</template></templates>
