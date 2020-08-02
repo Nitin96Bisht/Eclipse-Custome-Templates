@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Create ArrayList" enabled="true" name="arraylist">${:import(java.util.List, java.util.ArrayList)}&#13;
+List&lt;${type}&gt; list = new ArrayList&lt;&gt;();</template></templates>
