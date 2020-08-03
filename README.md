@@ -4,3 +4,4 @@
 | ------------------------------------------------------------------------- | -------------------------------------------------------- | ----------- |
 |  arraylist                        | Create ArrayList              | https://tinyurl.com/y4279yfa |
 | hashmap                             | Create HashMap      | https://tinyurl.com/yy3l9e9n |
+| singleton                             | Create Singleton Class      | https://tinyurl.com/yxeozpq5 |
