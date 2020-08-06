@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Read content of file" enabled="true" name="readfile">${:import(java.io.BufferedReader, java.io.FileInputStream, java.io.IOException, java.io.InputStreamReader, java.nio.charset.StandardCharsets)}&#13;
+	/**&#13;
+	 * Method to read content of file&#13;
+	 * @param filePath&#13;
+	 * @return&#13;
+	 * @throws IOException&#13;
+	 */public static StringBuilder readFile(String filePath) throws IOException {&#13;
+		&#13;
+		StringBuilder fileContent = new StringBuilder();&#13;
+		final BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8));&#13;
+		&#13;
+		String line;&#13;
+		while((line = in.readLine()) != null) {&#13;
+			fileContent.append(line);&#13;
+			fileContent.append(System.lineSeparator());&#13;
+		}&#13;
+		in.close();&#13;
+		return fileContent;&#13;
+	}</template></templates>
