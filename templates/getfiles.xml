@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Get all files from a directory" enabled="true" name="getfiles">${:import(java.io.File, java.io.FilenameFilter)}&#13;
+&#13;
+	/**&#13;
+	 * Method to get all files from a directory&#13;
+	 * @param dirPath&#13;
+	 * @return list of files&#13;
+	 */&#13;
+	public static File[] getAllFiles(String dirPath) {&#13;
+		File dir = new File(dirPath);&#13;
+		&#13;
+		return dir.listFiles(new FilenameFilter() {&#13;
+			@Override&#13;
+			public boolean accept(File dir, String fileName) {&#13;
+				return fileName.endsWith("");&#13;
+			}&#13;
+		});&#13;
+	}</template></templates>
