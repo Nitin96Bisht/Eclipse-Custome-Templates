@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Method to move file" enabled="true" name="movefile">${:import(java.nio.file.Files, java.nio.file.Path, java.nio.file.Paths, java.nio.file.StandardCopyOption, java.io.IOException)}	&#13;
+	&#13;
+	/**&#13;
+	 * Method to move file&#13;
+	 * @param source&#13;
+	 * @param destination&#13;
+	 * @throws IOException&#13;
+	 */&#13;
+	public static void moveFile(String source, String destination) throws IOException {&#13;
+		Path src = Paths.get(source);&#13;
+		Path des = Paths.get(destination);&#13;
+		Files.move(src, des, StandardCopyOption.REPLACE_EXISTING);&#13;
+	}</template></templates>
