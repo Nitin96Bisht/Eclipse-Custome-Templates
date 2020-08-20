@@ -8,3 +8,4 @@
 | scanner                             | Create Scanner for Input      | https://tinyurl.com/y4l6jwm8 |
 | readfile                             | Read content of file      | https://tinyurl.com/yxo7z8nx |
 | getfiles                             | Method to get all files from a directory      | https://tinyurl.com/y4pewpgs |
+| movefile                             | Method to move file      | https://tinyurl.com/y53v3gtp |
