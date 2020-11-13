@@ -11,3 +11,11 @@
 | movefile                             | Method to move file      | https://tinyurl.com/y53v3gtp |
 
 # How to use custome templates?
+
+<ol>
+  <li>Go to Window - Preferences</li>
+  <li>Type template - click on Templated under Editor</li>
+  [[Capture.png](https://i.postimg.cc/RC8r3dgw/Capture.png)](https://postimg.cc/4nz2q6k3)
+ 
+  
+</ol>
