@@ -15,7 +15,7 @@
 <ol>
   <li>Go to Window - Preferences</li>
   <li>Type template - click on Templated under Editor</li>
-  [[Capture.png](https://i.postimg.cc/RC8r3dgw/Capture.png)](https://postimg.cc/4nz2q6k3)
+  [![Capture.png](https://i.postimg.cc/RC8r3dgw/Capture.png)](https://postimg.cc/4nz2q6k3)
  
   
 </ol>
