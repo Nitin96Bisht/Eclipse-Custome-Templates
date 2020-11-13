@@ -13,12 +13,14 @@
 # How to use custome templates?
 
 <ol>
-  <li>Go to <b>Window - Preferences</b></li>
-  <li>Type <b>Template</b> - click on <b>Template</b> under Editor</li>
+  <li>Go to <b>Window - Preferences.</b></li>
+  <li>Type <b>Template</b> - click on <b>Template</b> under Editor.</li>
+  
   <br />
+  
   [![Capture.png](https://i.postimg.cc/RC8r3dgw/Capture.png)](https://postimg.cc/4nz2q6k3)
  
- <li>Click on </b>Import</b> on the right side</li>
- <li>Import templates and use with their name</li>
+ <li>Click on </b>Import</b> on the right side.</li>
+ <li>Import templates and use with their name.</li>
   
 </ol>
