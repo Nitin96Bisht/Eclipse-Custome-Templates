@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Create HashSet" enabled="true" name="hashset">${:import(java.util.HashSet, &#13;
+java.util.Set)}Set&lt;${keytype}&gt; = new HashSet&lt;&gt;();</template></templates>
